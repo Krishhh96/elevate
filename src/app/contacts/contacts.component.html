@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="row" *ngFor="let data of contactobj">
+    <div class="col-lg-12 col-sm-12">
+      <div class="container-custom">
+        <div class="imgBox">
+          <img src="{{ data.imgUrl }}" />
+        </div>
+        <div class="contact-name">
+          {{ data.name }}
+          <div class="contact-type">{{ data.type }}</div>
+        </div>
+        <a
+          class="call-custom"
+          [routerLink]="[
+            '/details',
+            data.name,
+            data.lastName,
+            data.homePhone,
+            data.workPhone,
+            data.email,
+            data.site,
+            data.skype,
+            data.imgUrl
+          ]"
+        >
+          <fa-icon [icon]="faPhone"></fa-icon>
+          <fa-icon class="message-icon" [icon]="faSms"></fa-icon>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

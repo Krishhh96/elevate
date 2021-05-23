@@ -1,0 +1,61 @@
+<div class="card-deck">
+  <div class="card mb-4 text-center card-custom">
+    <h5 class="card-title">{{ user.name }} {{ user.lastName }}</h5>
+    <img class="card-img-top" src="{{ user.imgUrl }}" alt="Card image cap" />
+    <div class="card-body">
+      <div class="card-text">
+        <div class="card-icon-inline">
+          <div class="contact-details">
+            {{ user.homePhone }}
+            <div class="contact-type">Home Phone</div>
+          </div>
+          <a class="call-custom">
+            <fa-icon [icon]="faPhone"></fa-icon>
+            <fa-icon class="message-icon" [icon]="faSms"></fa-icon>
+          </a>
+        </div>
+        <hr />
+        <div class="card-icon-inline">
+          <div class="contact-details">
+            {{ user.workPhone }}
+            <div class="contact-type">Work Phone</div>
+          </div>
+          <a class="call-custom">
+            <fa-icon [icon]="faPhone"></fa-icon>
+            <fa-icon class="message-icon" [icon]="faSms"></fa-icon>
+          </a>
+        </div>
+        <hr />
+        <div class="card-icon-inline">
+          <div class="contact-details">
+            {{ user.email }}
+            <div class="contact-type">Email</div>
+          </div>
+          <a class="call-custom">
+            <fa-icon [icon]="faEnvelope"></fa-icon>
+          </a>
+        </div>
+        <hr />
+        <div class="card-icon-inline">
+          <div class="contact-details">
+            {{ user.site }}
+            <div class="contact-type">Site</div>
+          </div>
+          <a class="call-custom">
+            <fa-icon [icon]="faGlobe"></fa-icon>
+          </a>
+        </div>
+        <hr />
+        <div class="card-icon-inline">
+          <div class="contact-details">
+            {{ user.skype }}
+            <div class="contact-type">Skype</div>
+          </div>
+          <a class="call-custom">
+            <fa-icon [icon]="faSkype"></fa-icon>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

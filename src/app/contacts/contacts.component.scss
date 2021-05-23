@@ -1,0 +1,41 @@
+@import "variables.scss";
+
+.container-fluid {
+  padding: 0px 0px;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.container-custom {
+  background-color: $secondaryColor;
+  display: flex;
+}
+
+.contact-name {
+  margin-left: 10px;
+}
+.imgBox {
+  display: flex;
+}
+img {
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+.contact-name,
+.contact-type {
+  color: white;
+  padding-top: 0.5rem;
+}
+.call-custom {
+  color: white;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: 3rem;
+}
+.message-icon {
+  margin-left: 1rem;
+}

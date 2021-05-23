@@ -1,0 +1,23 @@
+@import "variables.scss";
+
+.nav-custom {
+  background-color: $primaryColor !important;
+}
+.carousel-control-prev-icon {
+  height: 30px;
+  width: 32px;
+  background-size: 50%, 50%;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.contacts-heading {
+  color: white !important;
+}
+.nav-search,
+.nav-plus {
+  color: white !important;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  margin-left: auto !important;
+}

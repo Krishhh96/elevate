@@ -1,0 +1,46 @@
+@import "variables.scss";
+
+.card-custom {
+  background-color: $secondaryColor;
+  padding-bottom: 0;
+  margin-bottom: 0 !important;
+}
+.card-title {
+  color: white;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+.contact-details {
+  color: white;
+  text-align: left;
+  padding-left: 1rem;
+}
+.contact-type {
+  font-size: small;
+}
+.card-icon-inline {
+  display: flex;
+}
+.call-custom {
+  color: white;
+  // margin-top: 2rem;
+  margin-left: auto;
+  // margin-right: 3rem;
+}
+.card-img-top {
+  width: 100%;
+  height: 120vh;
+  //   height: 15vw;
+  object-fit: cover;
+}
+.message-icon {
+  margin-left: 1rem;
+}
+
+@media (max-width: 1080px) {
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
