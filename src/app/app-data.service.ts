@@ -83,6 +83,28 @@ export class AppDataService {
       site: 'Tesla.com',
       skype: 'elon_musk',
     },
+    {
+      name: 'Sundar',
+      lastName: 'Pichai',
+      type: 'Work',
+      imgUrl: '../../assets/images/sundar.jpeg',
+      homePhone: '(987) 412 4343',
+      workPhone: '(408) 214 3357',
+      email: 'sundar.pichai@Google.com',
+      site: 'Google.com',
+      skype: 'sundar_pichai',
+    },
+    {
+      name: 'Satya',
+      lastName: 'Nadella',
+      type: 'Work',
+      imgUrl: '../../assets/images/satya.jpeg',
+      homePhone: '(812) 412 4321',
+      workPhone: '(408) 333 7805',
+      email: 'satya.nadella@Microsoft.com',
+      site: 'Microsoft.com',
+      skype: 'satya_nadella',
+    },
   ];
 
   constructor() {}
