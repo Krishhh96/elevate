@@ -68,7 +68,7 @@ export class AppDataService {
       imgUrl: '../../assets/images/obama.jpeg',
       homePhone: '(812) 412 7766',
       workPhone: '(408) 323 4355',
-      email: 'gates.bill@America.com',
+      email: 'obama.barack@America.com',
       site: 'America.com',
       skype: 'barack_obama',
     },
